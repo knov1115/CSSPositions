@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+
+    <link rel="stylesheet" href="Positioning.css">
+</head>
+
+
+<body>
+
+    <h1 style="margin-bottom: 150px;">This lecture introduces all the CSS Positions - with video footage</h1>
+
+    <!--DEFAULT POSITION CODE STARTS FROM HERE-->
+    <h3>Default layout - called Static</h3>
+
+    <div class="parent">
+        Parent
+        <div class="child-one">Child One</div>
+        <div class="child-two">Child Two</div>
+        <div class="child-three">Child Three</div>
+
+    </div>
+
+    <!--POSITION RELATIVE CODE STARTS FROM HERE-->
+
+    <h3>Position Relative</h3>
+    <p>You can start using Top, Bottom, Right, Left elements but overall - nothing changes</p>
+    <div class="parent-relative">
+        Parent
+        <div class="child-one-relative">Child One</div>
+        <div class="child-two-relative">Child Two</div>
+        <div class="child-three-relative">Child Three</div>
+
+    </div>
+
+    <!--POSITION ABSOLUTE CODE STARTS FROM HERE-->
+
+    <h3>Position Absolute</h3>
+    <p>Absolutely positions an element inside of a PARENT container, if PARENT
+        container is not used, THEN it will align with the HTML container.
+    </p>
+    <p> <b>PARENT CONTAINER</b> needs to be set to <b>RELATIVE OR ABSOLUTE</b> to make 
+        top, bottom, left, right positiong work.
+    </p>
+    <div class="parent-absolute">
+        Parent
+        <div class="child-one-absolute">Child One</div>
+        <div class="child-two-absolute">Child Two</div>
+        <div class="child-three-absolute">Child Three</div>
+
+    </div>
+
+    <!--POSITION FIXED CODE STARTS FROM HERE-->
+
+    <h3>Position Fixed</h3>
+    <p>Fixed to a place set with top, left, right, bottom</p>
+    <p><b>Doesn't give a shit about parent container</b>, always sticks to html 
+        as parent
+    </p>
+    <p>It's now sticked to the top of the screen, when we scroll it stays there</p>
+    <div class="parent-fixed">
+        Parent
+        <div class="child-one-fixed">Child One</div>
+        <div class="child-two-fixed">Child Two</div>
+        <div class="child-three-fixed">Child Three</div>
+
+    </div>
+
+    <!--POSITION STICKY CODE STARTS FROM HERE-->
+
+    <h3>Position Sticky</h3>
+    <p>Relative when normal, but <b>if we scroll and the element reaches
+        the top of our screen, it will stick there.</b>
+    </p>
+    <div class="parent-sticky">
+        Parent
+        <div class="child-one-sticky">Child One</div>
+        <div class="child-two-sticky">Child Two</div>
+        <div class="child-three-sticky">Child Three</div>
+
+    </div>
+
+    <h3 style="display: flex; justify-content: center; margin-top: 125px;">YouTube Video Guide For CSS Positions</h3>
+    <div class="media-player-container">
+        <div class="media-player">
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jx5jmI0UlXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+
+
+
+</html>

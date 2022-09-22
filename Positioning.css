@@ -1,0 +1,162 @@
+body {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 6000px;
+}
+p {
+    padding: 0;
+    margin: 5px;
+}
+h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.parent {
+    background-color: rgb(24, 105, 199);
+}
+.child-one {
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-two {
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-three {
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/*Position Relative CSS ---STARTS FROM HERE--- */
+
+
+.parent-relative {
+    background-color: rgb(24, 105, 199);
+}
+.child-one-relative {
+    background-color: green;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-two-relative {
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-three-relative {
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* Position Absolute CSS ---STARTS FROM HERE--- */
+
+.parent-absolute {
+    background-color: rgb(24, 105, 199);
+    position: relative;
+}
+.child-one-absolute {
+    background-color: green;
+    position: absolute;
+    top: 0;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-two-absolute {
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-three-absolute {
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* Position Fixed CSS ---STARTS FROM HERE--- */
+
+.parent-fixed {
+    background-color: rgb(24, 105, 199);
+    position: relative;
+}
+.child-one-fixed {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-two-fixed {
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-three-fixed {
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* Position Sticky CSS ---STARTS FROM HERE--- */
+
+.parent-sticky {
+    background-color: rgb(24, 105, 199);
+    position: relative;
+}
+.child-one-sticky {
+    background-color: green;
+    position: sticky;
+    top: 0;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-two-sticky {
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.child-three-sticky {
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* Media player related code */
+
+.media-player-container {
+    width: 100%;
+    background-color: lightblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.media-player {
+    position: absolute;
+
+}
+
